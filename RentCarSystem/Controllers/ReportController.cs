@@ -40,7 +40,7 @@ namespace RentCarSystem.Controllers
 
             var results = query.ToList();
 
-            return new ViewAsPdf(results);
+            return new ViewAsPdf(results); // La libreria utilizada es Rotativa.ASP.NET Core para creacion de reportes
         }
     }
 }
