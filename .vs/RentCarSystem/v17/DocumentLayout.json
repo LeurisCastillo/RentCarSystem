@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|c:\\users\\leurisdelossantos\\desktop\\rentcarsystem\\rentcarsystem\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|solutionrelative:rentcarsystem\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|c:\\users\\leurisdelossantos\\desktop\\rentcarsystem\\rentcarsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|solutionrelative:rentcarsystem\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|c:\\users\\leurisdelossantos\\desktop\\rentcarsystem\\rentcarsystem\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|solutionrelative:rentcarsystem\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|c:\\users\\leurisdelossantos\\desktop\\rentcarsystem\\rentcarsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|solutionrelative:rentcarsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|c:\\users\\leurisdelossantos\\desktop\\rentcarsystem\\rentcarsystem\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|solutionrelative:rentcarsystem\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|c:\\users\\leurisdelossantos\\desktop\\rentcarsystem\\rentcarsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|solutionrelative:rentcarsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|c:\\users\\leurisdelossantos\\desktop\\rentcarsystem\\rentcarsystem\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2222D4D6-76A5-4D8D-A98D-BAB81C548611}|RentCarSystem\\RentCarSystem.csproj|solutionrelative:rentcarsystem\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +38,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "RentCarSystem\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "RentCarSystem\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:27:10.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "RentCarSystem\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "RentCarSystem\\Controllers\\ClientsController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwIMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:26:17.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Views\\Report\\Index.cshtml",
-              "RelativeDocumentMoniker": "RentCarSystem\\Views\\Report\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Views\\Report\\Index.cshtml",
-              "RelativeToolTip": "RentCarSystem\\Views\\Report\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T07:23:30.695Z",
-              "IsPinned": true,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "RentCarSystem\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Models\\Employee.cs",
+              "RelativeToolTip": "RentCarSystem\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:24:25.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "RentCarSystem\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Models\\Client.cs",
+              "RelativeToolTip": "RentCarSystem\\Models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:24:07.941Z",
               "EditorCaption": ""
             },
             {
@@ -52,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Program.cs",
               "RelativeDocumentMoniker": "RentCarSystem\\Program.cs",
@@ -60,12 +110,11 @@
               "RelativeToolTip": "RentCarSystem\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T08:38:56.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T08:38:56.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Views\\Report\\Create.cshtml",
               "RelativeDocumentMoniker": "RentCarSystem\\Views\\Report\\Create.cshtml",
@@ -73,12 +122,11 @@
               "RelativeToolTip": "RentCarSystem\\Views\\Report\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T08:31:44.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T08:31:44.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ReportController.cs",
               "DocumentMoniker": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\Controllers\\ReportController.cs",
               "RelativeDocumentMoniker": "RentCarSystem\\Controllers\\ReportController.cs",

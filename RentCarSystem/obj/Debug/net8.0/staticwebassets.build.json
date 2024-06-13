@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EJyM/Jc6IZ8/MNYgpyavNGck0OQ5U1E8H2y8/jzGtfA=",
+  "Hash": "zLITQckChPEhI4WmU4m1yclu7y9TjFbsk4quQT604Bg=",
   "Source": "RentCarSystem",
   "BasePath": "_content/RentCarSystem",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "SourceId": "RentCarSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\wwwroot\\",
+      "BasePath": "_content/RentCarSystem",
+      "RelativePath": "Rotativa/wkhtmltopdf.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Rotativa\\wkhtmltopdf.exe"
     }
   ]
 }

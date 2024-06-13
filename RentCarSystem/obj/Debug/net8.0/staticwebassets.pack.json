@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\RentCarSystem.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\wwwroot\\Rotativa\\wkhtmltopdf.exe",
+      "PackagePath": "staticwebassets\\Rotativa\\wkhtmltopdf.exe"
+    },
+    {
       "Id": "C:\\Users\\LeurisDeLosSantos\\Desktop\\RentCarSystem\\RentCarSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

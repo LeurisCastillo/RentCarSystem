@@ -51,7 +51,7 @@ namespace RentCarSystem.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,IdentificationCard,WorkSchedule,CommissionPercentage,StartDate,State")] Employee employee)
         {
-            if (ModelState.IsValid && ValidateCommissionPercentage(employee.CommissionPercentage))
+            if (ModelState.IsValid && ValidateCommissionPercentage(employee.CommissionPercentage) && validaCedula(employee.IdentificationCard))
             {
                 _context.Add(employee);
                 await _context.SaveChangesAsync();
@@ -99,7 +99,7 @@ namespace RentCarSystem.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid && ValidateCommissionPercentage(employee.CommissionPercentage))
+            if (ModelState.IsValid && ValidateCommissionPercentage(employee.CommissionPercentage) && validaCedula(employee.IdentificationCard))
             {
                 try
                 {
@@ -158,6 +158,31 @@ namespace RentCarSystem.Controllers
         private bool EmployeeExists(int id)
         {
             return _context.Employee.Any(e => e.Id == id);
+        }
+
+        public static bool validaCedula(string pCedula)
+        {
+            int vnTotal = 0;
+            string vcCedula = pCedula.Replace("-", "");
+            int pLongCed = vcCedula.Trim().Length;
+            int[] digitoMult = new int[11] { 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1 };
+
+            if (pLongCed < 11 || pLongCed > 11)
+                return false;
+
+            for (int vDig = 1; vDig <= pLongCed; vDig++)
+            {
+                int vCalculo = Int32.Parse(vcCedula.Substring(vDig - 1, 1)) * digitoMult[vDig - 1];
+                if (vCalculo < 10)
+                    vnTotal += vCalculo;
+                else
+                    vnTotal += Int32.Parse(vCalculo.ToString().Substring(0, 1)) + Int32.Parse(vCalculo.ToString().Substring(1, 1));
+            }
+
+            if (vnTotal % 10 == 0)
+                return true;
+            else
+                return false;
         }
     }
 }

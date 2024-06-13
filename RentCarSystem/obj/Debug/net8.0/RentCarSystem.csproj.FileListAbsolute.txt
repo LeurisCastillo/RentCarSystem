@@ -517,3 +517,4 @@ C:\Users\LeurisDeLosSantos\Desktop\RentCarSystem\RentCarSystem\obj\Debug\net8.0\
 C:\Users\LeurisDeLosSantos\Desktop\RentCarSystem\RentCarSystem\obj\Debug\net8.0\RentCarSystem.pdb
 C:\Users\LeurisDeLosSantos\Desktop\RentCarSystem\RentCarSystem\obj\Debug\net8.0\RentCarSystem.genruntimeconfig.cache
 C:\Users\LeurisDeLosSantos\Desktop\RentCarSystem\RentCarSystem\obj\Debug\net8.0\ref\RentCarSystem.dll
+C:\Users\LeurisDeLosSantos\Desktop\RentCarSystem\RentCarSystem\obj\Debug\net8.0\RentCarSystem.sourcelink.json
