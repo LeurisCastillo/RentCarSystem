@@ -1,0 +1,68 @@
+﻿@model RentCarSystem.Models.Employee
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+@if (TempData["AlertMessageCommision"] != null )
+{
+    <div class="alert alert-danger">
+        @TempData["AlertMessageCommision"]
+        <button type="button" class="close" data-dismiss="alert">
+            <span> &times;</span>
+        </button>
+    </div>
+}
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdentificationCard" class="control-label"></label>
+                <input asp-for="IdentificationCard" class="form-control" />
+                <span asp-validation-for="IdentificationCard" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WorkSchedule" class="control-label"></label>
+                <select asp-for="WorkSchedule" class="form-control" asp-items="Html.GetEnumSelectList<WorkSchedule>()"></select>
+                <span asp-validation-for="WorkSchedule" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CommissionPercentage" class="control-label"></label>
+                <input asp-for="CommissionPercentage" type="number" class="form-control" />
+                <span asp-validation-for="CommissionPercentage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" type="date" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="State" class="control-label" hidden></label>
+                <input asp-for="State" class="form-control" type="hidden" value="0" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

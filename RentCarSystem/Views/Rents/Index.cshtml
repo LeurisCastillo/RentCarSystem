@@ -1,0 +1,59 @@
+﻿@model IEnumerable<RentCarSystem.Models.Vehicule>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="mt-4">Rent your dream car</h1>
+
+<table class="table table-striped table-bordered" id="vehicules_table">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Vehicule's name
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PlateNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MotorNumber)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PlateNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MotorNumber)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Details</a> 
+                    @if (item.IsRented)
+                    {
+                        <a asp-action="CheckRentedVehicules" asp-route-id="@item.Id" class="btn btn-sm btn-success disabled" aria-disabled="true">Rent</a>
+                    }
+                    else
+                    {
+                        <a asp-action="CheckRentedVehicules" asp-route-id="@item.Id" class="btn btn-sm btn-success">Rent</a>
+                    }
+                    @* <a asp-action="CheckRentedVehicules" asp-route-id="@item.Id" class="btn btn-sm btn-success">Rent</a> *@
+                    @* <a asp-controller="Inspections" asp-action="Create" class="btn btn-sm btn-success">Rent</a> *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#vehicules_table').DataTable();
+        });
+    </script>
+}
